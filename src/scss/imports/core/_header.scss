@@ -1,0 +1,41 @@
+.header {
+    height: 70px;
+    // background: #888;
+    &_content {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-logo {
+            .heading {
+                color: #fff;
+                font-size: 25px;
+                font-family: "Pacifico", cursive;
+            }
+        }
+        &-infor {
+            ul {
+                display: flex;
+                align-items: center;
+                li a {
+                    &.active {
+                        color: #20cacaea;
+                        transition: 0.4s;
+                    }
+                    &:hover {
+                        color: #20cacaea;
+                    }
+                    padding: 15px 30px;
+                    color: #fff;
+                    transition: 0.4s;
+                    font-size: 17px;
+                    font-family: "Pacifico", sans-serif;
+                }
+            }
+        }
+    }
+}
+
+body {
+    background: #0e152f;
+}
