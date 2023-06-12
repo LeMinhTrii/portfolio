@@ -49,7 +49,12 @@ export default function Home() {
                 </Link>
               </div>
               <div className="btndow">
-                <a href="">Download CV</a>
+                <a
+                  href="https://drive.google.com/uc?export=download&id=19fZnAdHbAg26cjlJOei2hfyOzFagGDmC"
+                  download
+                >
+                  Download CV
+                </a>
               </div>
             </div>
             <div className="main_content-photo">
