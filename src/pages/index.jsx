@@ -27,6 +27,7 @@ export default function Home() {
                 Sự thay đổi của cuộc sống là điều không thể tránh khỏi. Việc
                 chúng ta đơn giản là lựa chọn cách để vượt qua mà thôi.
                 <br />
+                <br />
                 Sự khác biệt giữa những người thành công và những người thất bại
                 không phải là ở sức mạnh, kiến thức hay sự hiểu biết, mà chính
                 là ở ý chí.

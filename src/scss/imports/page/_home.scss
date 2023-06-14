@@ -147,7 +147,7 @@
     @media (max-width: $xs-max) {
         &_content {
             flex-wrap: wrap;
-            margin-top: 80px;
+            margin: 80px 0;
             flex-direction: column-reverse;
             &-box {
                 text-align: center;
