@@ -51,7 +51,8 @@ export default function Home() {
               </div>
               <div className="btndow">
                 <a
-                  href="https://drive.google.com/uc?export=download&id=19fZnAdHbAg26cjlJOei2hfyOzFagGDmC"
+                  // href="https://drive.google.com/file/d//view?usp=drive_link"
+                  href="https://drive.google.com/uc?export=download&id=1GWt3IuePjKgbdD5KJbqcDl5-QdseISc6"
                   download
                 >
                   Download CV
