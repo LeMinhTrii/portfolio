@@ -128,6 +128,44 @@
             }
         }
     }
+    @media (max-width: $sm-max) {
+        &_content {
+            &-box {
+                .btndow {
+                    margin-top: 10px;
+                }
+            }
+            &-photo {
+                margin: 0 auto;
+                .thumnail {
+                    width: 230px;
+                    height: 230px;
+                }
+            }
+        }
+    }
+    @media (max-width: $xs-max) {
+        &_content {
+            flex-wrap: wrap;
+            margin-top: 80px;
+            flex-direction: column-reverse;
+            &-box {
+                text-align: center;
+                width: 100%;
+                .btndow {
+                    margin-top: 10px;
+                }
+                .contact {
+                    a {
+                        margin-right: 0;
+                    }
+                }
+            }
+            &-photo {
+                margin: 0 auto;
+            }
+        }
+    }
 }
 
 /*keyframes animation*/

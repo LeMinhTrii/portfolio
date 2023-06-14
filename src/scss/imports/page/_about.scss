@@ -71,4 +71,34 @@
             }
         }
     }
+    @media (max-width: $sm-max) {
+        &_content {
+            gap: 30px;
+            &-box {
+                .infor {
+                    .contact {
+                        .item {
+                            span {
+                                line-height: 20px;
+                            }
+                        }
+                    }
+                    .skill {
+                        .listskill {
+                            .item {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $xs-max) {
+        &_content {
+            margin-top: 30px;
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+    }
 }

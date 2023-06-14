@@ -1,15 +1,11 @@
 .project {
     &_content {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        margin-top: 5%;
         &-box {
-            display: flex;
-            min-width: 1200px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
             gap: 20px;
             .item {
-                flex: 1;
                 .thumnail {
                     position: relative;
                     overflow: hidden;
@@ -29,7 +25,7 @@
                     }
                 }
                 .content {
-                    margin: 20px 0 0 20px;
+                    margin: 20px 0 0 0;
                     .name {
                         font-size: 20px;
                         font-family: "Roboto";
@@ -49,6 +45,31 @@
                         }
                     }
                 }
+            }
+        }
+    }
+    @media (max-width: $sm-max) {
+        &_content {
+            margin-top: 30px;
+            &-box {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                min-width: unset;
+                .item {
+                    .content {
+                        margin: 20px 0 0 0;
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: $xs-max) {
+        &_content {
+            padding: 30px 0;
+            &-box {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 30px;
             }
         }
     }

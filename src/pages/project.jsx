@@ -11,7 +11,7 @@ export default function Project() {
                 <div className="thumnail">
                   <a href="https://coffeeapp-nine.vercel.app/">
                     <img
-                      src="https://res.cloudinary.com/dsuxginpx/image/upload/v1686575829/static/z4426624827065_deec170aa1939b9c32ea4c670d3fa278_spihqd.jpg"
+                      src="https://res.cloudinary.com/dsuxginpx/image/upload/v1686751433/static/z4432575084028_fe8edcee513f9862659ddacebc36e0f0_ykw5jr.jpg"
                       alt=""
                     />
                   </a>
@@ -34,16 +34,16 @@ export default function Project() {
               </div>
               <div className="item">
                 <div className="thumnail">
-                  <a href="https://sunset-steel.vercel.app/">
+                  <a href="https://sunset-theta.vercel.app/">
                     <img
-                      src="https://res.cloudinary.com/dsuxginpx/image/upload/v1686575828/static/z4426626168969_01fc3adb729587fcd506132f5e1e7a15_j8cyhu.jpg"
+                      src="https://res.cloudinary.com/dsuxginpx/image/upload/v1686751433/static/z4432574215249_719fa409984ec7043234681530c61311_oqga7r.jpg"
                       alt=""
                     />
                   </a>
                 </div>
                 <div className="content">
                   <p className="name">Sunset</p>
-                  <a href="https://sunset-steel.vercel.app/">
+                  <a href="https://sunset-theta.vercel.app/">
                     Link Project:
                     <span>https://coffeeapp-nine.vercel.app/</span>
                   </a>
@@ -54,16 +54,16 @@ export default function Project() {
               </div>
               <div className="item">
                 <div className="thumnail">
-                  <a href="https://wooder-eight.vercel.app/">
+                  <a href="https://wooder-zeta.vercel.app/">
                     <img
-                      src="https://res.cloudinary.com/dsuxginpx/image/upload/v1686575828/static/z4426627255409_c624dc29a32f6717e7bd75de7a32c1e2_gnyofe.jpg"
+                      src="https://res.cloudinary.com/dsuxginpx/image/upload/v1686751433/static/z4432573865847_1e338f62f8ebb907f2a3dcd322effd5f_gdenr4.jpg"
                       alt=""
                     />
                   </a>
                 </div>
                 <div className="content">
                   <p className="name">Wooder</p>
-                  <a href="https://wooder-eight.vercel.app/">
+                  <a href="https://wooder-zeta.vercel.app/">
                     Link Project:
                     <span>https://coffeeapp-nine.vercel.app/</span>
                   </a>
