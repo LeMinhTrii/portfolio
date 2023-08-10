@@ -51,12 +51,19 @@ export default function Home() {
               </div>
               <div className="btndow">
                 <a
+                  href="https://drive.google.com/uc?export=download&id=1b9Uj03I0wmtWvVZWFY7xLt9fvtxepi6t"
+                  // href="https://drive.google.com/file/d/1b9Uj03I0wmtWvVZWFY7xLt9fvtxepi6t/view?usp=drive_link"
+                  download
+                >
+                  Download CV
+                </a>
+                {/* <a
                   // href="https://drive.google.com/file/d//view?usp=drive_link"
                   href="https://drive.google.com/uc?export=download&id=1GWt3IuePjKgbdD5KJbqcDl5-QdseISc6"
                   download
                 >
                   Download CV
-                </a>
+                </a> */}
               </div>
             </div>
             <div className="main_content-photo">
